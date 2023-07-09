@@ -6,17 +6,168 @@
     <title>Efficient</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
-
-
-
-
-
-
+<body class="body">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="/index.html">Efficient</a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/reserva.html">Reserva</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/flota.html">Flota</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="alquiler">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-md-6 mt-3">
+                    <div class="color-h1 mt-3">
+                    <h1>Alquiler de vehículos</h1>
+                    </div>
+                    <form class="formulario m-3">
+                        <fieldset class="field">
+                            <div class="fields">
+                                <label for="">Lugar de entrega</label>
+                                    <select name="lugar de entrega" id="lagn">
+                                        <option value="selecciona">Elige un lugar</option>
+                                        <option value="Ciudad">Mendoza</option>
+                                        <option value="Godoy Cruz">Godoy Cruz</option>
+                                        <option value="San Martín">San Martín</option>
+                                    </select>
+                            </div>
+                            <div class="fields">
+                                <label for="">Fecha de entrega:</label>
+                                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
+                            </div>
+                            <div class="fields">
+                                <label for="">Fecha de devolución:</label>
+                                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
+                            </div>
+                            <div class="fields">
+                                <label for="">Tipo de vehículo:</label>
+                                    <select  name="lugar de entrega" id="lugar">
+                                    <option value="selecciona">Elige un vehículo</option>
+                                    <option value="Moto">Moto</option>
+                                    <option value="Auto">Auto</option>
+                                    <option value="Camioneta">Camioneta</option>
+                                    <option value="Utilitario">Utilitario</option>
+                                    <option value="Camion">Camion</option>
+                                    </select>
+                            </div>
+                            <div class="bottom m-2">
+                                <a class="btn button" href="/pages/reserva.html" role="button">Buscar</a>
+                                <a class="btn button" href="/pages/flota.html" role="button">Más info.</a>
+                            </div>
+                        </fieldset>
+                </form>
+              </div>
+              <div class="col-6 d-flex align-items-center justify-content-end">
+                <div class="img-tam">
+                <img class="img-fluid" src="/media/foto-header.png" alt="">
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <section class="boxs">
+        <div class="container text-center mt-4">
+            <div class="row">
+              <div class="col-md">
+                <div class="box-1">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <h3>Fácil Acceso</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo earum! Adipisci sunt sequi quod praesentium, maxime a. Dolorum aspernatur temporibus molestiae adipisci suscipit quod labore quaerat laborum neque tempore.</p>
+                </div>
+              </div>
+              <div class="col-md">
+                    <div class="box-2">
+                    <i class="bi bi-flag-fill"></i>
+                    <h3>Sin límites de km</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo earum! Adipisci sunt sequi quod praesentium, maxime a. Dolorum aspernatur temporibus molestiae adipisci suscipit quod labore quaerat laborum neque tempore.</p>
+                    </div>
+                </div>
+              <div class="col-md">
+                <div class="box-3">
+                    <i class="bi bi-star"></i>
+                    <h3>Amplica variedad</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo earum! Adipisci sunt sequi quod praesentium, maxime a. Dolorum aspernatur temporibus molestiae adipisci suscipit quod labore quaerat laborum neque tempore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mas-sobre">
+        <div class="container text-center">
+            <div class="row align-items-center justify-content-between">
+                <div class=" col-sm-6 col-12">
+                <h2>Eficient cars</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolores unde ab sapiente corporis eius aliquam, sed a maxime placeat dignissimos rerum sunt, veniam quaerat molestias reprehenderit recusandae porro. Ipsum.</p>
+                <a class="btn button" href="/pages/nosotros.html" role="button">NOSOTROS</a>
+                </div>
+                <div class="col-6 ">
+                    <div class="img-nosotros">
+                    <img src="/media/foto-nosotros.jpg" class="img-fluid" alt="Grupo de trabajo">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="redes">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col  mt-4 mb-4">
+                    <h2>NUESTRAS REDES</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                    <i class="bi bi-facebook" ></i>
+                </div>
+                <div class="col mb-4">
+                    <i class="bi bi-instagram"></i>
+                </div>
+                <div class="col mb-4">
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn button button--modificado" href="#" role="button">IR AL TOP</a>
+                </div>
+            </div>
+            <div class="row bg-warning pt-3">
+                <div class="col-6">
+                    <p>Derechos de autor © 2023. Mi sitio web.</p>
+                </div>
+                <div class="col-6">
+                    <p>Contáctanos en info@eficient.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </body>
