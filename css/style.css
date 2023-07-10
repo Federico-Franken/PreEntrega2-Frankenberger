@@ -11,7 +11,7 @@ body{
     width: 500px;      
 }
 .alquiler{
-   background-image: url(/media/fondo-header-2.jpg);
+   background-image: url(../media/fondo-header-2.jpg);
    background-size: 100% 100%;
    background-position: center;
    height: auto;
