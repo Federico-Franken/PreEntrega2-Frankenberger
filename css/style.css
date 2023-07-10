@@ -24,6 +24,7 @@ body{
     border-radius: 30px;
     padding: 1px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 500px;  
 }
 .field{
     background-color: white;
@@ -102,6 +103,7 @@ i{
     .img-tam{
         display: none;
     }
+}
 @media screen and (max-width: 574px) {
     .img-nosotros{
         display: none;

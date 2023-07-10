@@ -22,74 +22,76 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="/pages/reserva.html">Reserva</a>
+                    <a class="nav-link" href="pages/reserva.html">Reserva</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/pages/flota.html">Flota</a>
+                    <a class="nav-link" href="pages/flota.html">Flota</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/pages/contact.html">Contacto</a>
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
+
     <section class="alquiler">
         <div class="container text-center">
-            <div class="row">
-              <div class="col-md-6 mt-3">
-                    <div class="color-h1 mt-3">
-                    <h1>Alquiler de vehículos</h1>
-                    </div>
-                    <form class="formulario m-3">
-                        <fieldset class="field">
-                            <div class="fields">
-                                <label for="">Lugar de entrega</label>
-                                    <select name="lugar de entrega" id="lagn">
-                                        <option value="selecciona">Elige un lugar</option>
-                                        <option value="Ciudad">Mendoza</option>
-                                        <option value="Godoy Cruz">Godoy Cruz</option>
-                                        <option value="San Martín">San Martín</option>
-                                    </select>
-                            </div>
-                            <div class="fields">
-                                <label for="">Fecha de entrega:</label>
-                                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
-                            </div>
-                            <div class="fields">
-                                <label for="">Fecha de devolución:</label>
-                                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
-                            </div>
-                            <div class="fields">
-                                <label for="">Tipo de vehículo:</label>
-                                    <select  name="lugar de entrega" id="lugar">
-                                    <option value="selecciona">Elige un vehículo</option>
-                                    <option value="Moto">Moto</option>
-                                    <option value="Auto">Auto</option>
-                                    <option value="Camioneta">Camioneta</option>
-                                    <option value="Utilitario">Utilitario</option>
-                                    <option value="Camion">Camion</option>
-                                    </select>
-                            </div>
-                            <div class="bottom m-2">
-                                <a class="btn button" href="/pages/reserva.html" role="button">Buscar</a>
-                                <a class="btn button" href="/pages/flota.html" role="button">Más info.</a>
-                            </div>
-                        </fieldset>
-                </form>
-              </div>
-              <div class="col-6 d-flex align-items-center justify-content-end">
-                <div class="img-tam">
-                <img class="img-fluid" src="/media/foto-header.png" alt="">
-                </div>
-             </div>
+          <div class="row">
+            <div class="col-md-6 mt-3">
+              <form class="formulario m-3">
+                <fieldset class="field">
+                  <div class="fields">
+                    <label for="">Lugar de entrega</label>
+                    <select name="lugar de entrega" id="lagn">
+                      <option value="selecciona">Elige un lugar</option>
+                      <option value="Ciudad">Mendoza</option>
+                      <option value="Godoy Cruz">Godoy Cruz</option>
+                      <option value="San Martín">San Martín</option>
+                    </select>
+                  </div>
+                  <div class="fields">
+                    <label for="">Fecha de entrega:</label>
+                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
+                  </div>
+                  <div class="fields">
+                    <label for="">Fecha de devolución:</label>
+                    <input type="date" value="" min="2023-01-01" max="2023-12-31">
+                  </div>
+                  <div class="fields">
+                    <label for="">Tipo de vehículo:</label>
+                    <select name="lugar de entrega" id="lugar">
+                      <option value="selecciona">Elige un vehículo</option>
+                      <option value="Moto">Moto</option>
+                      <option value="Auto">Auto</option>
+                      <option value="Camioneta">Camioneta</option>
+                      <option value="Utilitario">Utilitario</option>
+                      <option value="Camion">Camion</option>
+                    </select>
+                  </div>
+                  <div class="bottom m-2">
+                    <a class="btn button" href="/pages/reserva.html" role="button">Buscar</a>
+                    <a class="btn button" href="/pages/flota.html" role="button">Más info.</a>
+                  </div>
+                </fieldset>
+              </form>
             </div>
+            <div class="col-6 d-flex flex-column align-items-end justify-content-evenly">
+              <div class="color-h1 p-2">
+                <h1>Alquiler de vehículos</h1>
+              </div>
+              <div class="img-tam" >
+                <img class="img-fluid" src="media/foto-header.png" alt="">
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+
     <section class="boxs">
         <div class="container text-center mt-4">
             <div class="row">
@@ -116,21 +118,23 @@
             </div>
         </div>
     </section>
+
     <section class="mas-sobre">
         <div class="container text-center">
             <div class="row align-items-center justify-content-between">
                 <div class=" col-sm-6 col-12">
-                <h2>Eficient cars</h2>
+                <h2>Efficient cars</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolores unde ab sapiente corporis eius aliquam, sed a maxime placeat dignissimos rerum sunt, veniam quaerat molestias reprehenderit recusandae porro. Ipsum.</p>
                 <a class="btn button" href="/pages/nosotros.html" role="button">NOSOTROS</a>
                 </div>
                 <div class="col-6 ">
                     <div class="img-nosotros">
-                    <img src="/media/foto-nosotros.jpg" class="img-fluid" alt="Grupo de trabajo">
+                    <img src="media/foto-nosotros.jpg" class="img-fluid" alt="Grupo de trabajo">
                     </div>
                 </div>
             </div>
     </section>
+
     <section class="redes">
         <div class="container-fluid text-center">
             <div class="row">
@@ -151,6 +155,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="container-fluid text-center">
             <div class="row">
@@ -163,11 +168,12 @@
                     <p>Derechos de autor © 2023. Mi sitio web.</p>
                 </div>
                 <div class="col-6">
-                    <p>Contáctanos en info@eficient.com</p>
+                    <p>Contáctanos en info@efficient.com</p>
                 </div>
             </div>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </body>
